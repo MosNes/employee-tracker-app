@@ -6,9 +6,10 @@ const db = require('./db/connection')
 
 //------INITIALIZATION----------------------------------------------------------------
 
-//start app after DB connection
-db.connect(err => {
-    if (err) throw err;
-    console.log('Database connected.');
-   // app start code here
-});
+async function test() {
+    (await db).query(`SELECT * FROM employee`).then(result => {
+        console.log(result[0])
+    });
+}
+    
+test();
