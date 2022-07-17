@@ -1,9 +1,8 @@
-//use nodemon --exec npm start in development
-
 //-----DEPENDENCIES AND GLOBAL VARIABLES-----------------------------------------
 const dotenv = require('dotenv');
 dotenv.config()
 const db = require('./db/connection')
+ 
 
 //------INITIALIZATION----------------------------------------------------------------
 
