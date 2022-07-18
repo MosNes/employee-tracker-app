@@ -12,6 +12,11 @@
 -- VALUES ('Hoopsy', 'Blimdo', 17, 3);
 
 -- Update employee role
+-- UPDATE employee
+-- SET role_id = 1
+-- WHERE id = 22;
+
+-- Update Employee Manager
 UPDATE employee
-SET role_id = 1
-WHERE id = 22;
+SET manager_id = 1
+WHERE id = 25;
