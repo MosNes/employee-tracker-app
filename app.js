@@ -1,15 +1,18 @@
 //-----DEPENDENCIES AND GLOBAL VARIABLES-----------------------------------------
 const dotenv = require('dotenv');
-dotenv.config()
-const db = require('./db/connection')
- 
+dotenv.config();
+const db = require('./db/connection');
+const Session = require('./lib/Session');
 
 //------INITIALIZATION----------------------------------------------------------------
 
-async function test() {
-    (await db).query(`SELECT * FROM employee`).then(result => {
-        console.log(result[0])
-    });
-}
+new Session().initializeSession();
+
+
+// async function test() {
+//     (await db).query(`SELECT * FROM employee`).then(result => {
+//         console.log(result[0])
+//     });
+// }
     
-test();
+// test();
