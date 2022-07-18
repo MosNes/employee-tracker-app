@@ -1,8 +1,29 @@
-const { getDepartments } = require('../lib/sqlFunctions');
-
-test('Gets list of all departments', () => {
-    const result = getDepartments().then(
-        expect(result.length).toEqual(9)
-    );
-    
-});
+//-----------TESTS------------------------
+        // let departments = await getDepartments();
+        // console.log("All Departments", departments);
+        // let departmentById = await getDepartmentById(3);
+        // console.log("Department with ID 3: ", departmentById);
+        // let roles = await getRoles();
+        // console.log("All Roles", roles);
+        // let role = await getRoleById(3);
+        // console.log("Role with ID: 3 ", role);
+        // let employees = await getEmployees();
+        // console.log("All Employees ", employees);
+        // let employee = await getEmployeeById(22);
+        // console.log("Employee with ID: 22 ", employee);
+        // let testDepartment = await newDepartment('Pencillers');
+        // console.log("New Department Created: ",testDepartment);
+        // let testRole = await newRole('Pineapple Wrangler',75000,4);
+        // console.log(testRole);
+        // let testEmployee = await newEmployee('Yarbm','Flanksteak',2,18);
+        // console.log(testEmployee);
+        // let updatedRole = await updateRole(6, 4);
+        // console.log(updatedRole);
+        // let updatedManager = await updateManager(6, 25);
+        // console.log(updatedManager);
+        // let employees = await getEmployeesByManager(18);
+        // console.log(employees);
+        // let employees = await db.getEmployeesByDepartment(1);
+        // console.log(employees);
+        // let budget = await db.getBudget(2);
+        // console.log(budget);

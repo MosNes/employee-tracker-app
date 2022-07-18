@@ -30,7 +30,10 @@
 -- LEFT JOIN department ON role.department_id = department.id WHERE department.id = 3;
 
 -- get department budget
-SELECT department.id AS department_id, department.name AS department_name, SUM(role.salary) AS budget FROM department
-RIGHT JOIN role ON department.id = role.department_id
-RIGHT JOIN employee ON role.id = employee.role_id
-WHERE department_id = 1;
+-- SELECT department.id AS department_id, department.name AS department_name, SUM(role.salary) AS budget FROM department
+-- RIGHT JOIN role ON department.id = role.department_id
+-- RIGHT JOIN employee ON role.id = employee.role_id
+-- WHERE department_id = 1;
+
+-- delete department
+-- DELETE FROM department WHERE id = 1;
