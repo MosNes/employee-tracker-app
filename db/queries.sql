@@ -17,6 +17,9 @@
 -- WHERE id = 22;
 
 -- Update Employee Manager
-UPDATE employee
-SET manager_id = 1
-WHERE id = 25;
+-- UPDATE employee
+-- SET manager_id = 1
+-- WHERE id = 25;
+
+-- view employees by manager
+SELECT * FROM employee WHERE manager_id = 18;
