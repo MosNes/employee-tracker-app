@@ -8,5 +8,10 @@
 -- VALUES ('Luchador', 95000, 8);
 
 -- create new Employee
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Hoopsy', 'Blimdo', 17, 3);
+-- INSERT INTO employee (first_name, last_name, role_id, manager_id)
+-- VALUES ('Hoopsy', 'Blimdo', 17, 3);
+
+-- Update employee role
+UPDATE employee
+SET role_id = 1
+WHERE id = 22;
