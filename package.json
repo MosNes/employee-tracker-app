@@ -7,5 +7,26 @@
   },
   "devDependencies": {
     "jest": "^28.1.3"
-  }
+  },
+  "name": "employee-tracker-app",
+  "description": "A Content Management System (CMS) app to manage a sample database of employee information.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosNes/employee-tracker-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MosNes/employee-tracker-app/issues"
+  },
+  "homepage": "https://github.com/MosNes/employee-tracker-app#readme"
 }
