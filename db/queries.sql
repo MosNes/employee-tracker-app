@@ -61,3 +61,9 @@
 
 -- delete department
 -- DELETE FROM department WHERE id = 1;
+
+-- view only Managers with direct reports
+-- SELECT e1.id AS id, CONCAT(e1.first_name, ' ', e1.last_name) AS 'Manager' FROM employee AS e1
+--     JOIN (SELECT manager_id FROM employee
+--             GROUP BY manager_id) AS e2
+--         ON e1.id = e2.manager_id;
