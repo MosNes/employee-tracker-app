@@ -20,8 +20,6 @@
 -- LEFT JOIN employee m ON
 -- m.id = e.manager_id;
 
-
-
 -- create new department
 -- INSERT INTO department (name)
 -- VALUES
