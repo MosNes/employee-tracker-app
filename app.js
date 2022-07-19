@@ -1,7 +1,6 @@
 //-----DEPENDENCIES AND GLOBAL VARIABLES-----------------------------------------
 const dotenv = require('dotenv');
 dotenv.config();
-const dbPromise = require('./db/connection');
 const Session = require('./lib/Session');
 
 //------INITIALIZATION----------------------------------------------------------------
@@ -14,6 +13,7 @@ const Session = require('./lib/Session');
     
 // test().then(result => console.log(result[0]));
 
+//creates a new Session
 new Session().initializeSession();
 
 

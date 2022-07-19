@@ -1,3 +1,27 @@
+-- view all roles
+-- SELECT role.id AS role_id,
+--     role.title,
+--     role.salary,
+--     department.name AS department_name FROM role
+-- LEFT JOIN department
+-- ON role.department_id = department.id;
+
+-- view all employees
+-- SELECT e.id AS employee_id,
+--     CONCAT(e.first_name, ' ', e.last_name) AS employee,
+--     role.title AS title,
+--     department.name AS department,
+--     IFNULL(CONCAT(m.first_name, ' ', m.last_name), 'Top Manager') AS manager,
+--     e.created_at FROM employee e
+-- LEFT JOIN role
+-- ON e.role_id = role.id
+-- LEFT JOIN department
+-- ON role.department_id = department.id
+-- LEFT JOIN employee m ON
+-- m.id = e.manager_id;
+
+
+
 -- create new department
 -- INSERT INTO department (name)
 -- VALUES
