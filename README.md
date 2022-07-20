@@ -43,7 +43,7 @@
    - Run from the command line by navigating to the root directory and running "npm start"
    - Choose from the menu options and select or enter data when prompted.
    - Quit by selecting Exit or by typing 'n' when asked if you'd like to do anything else.
-   - PLACEHOLDER FOR VIDEO RECORDING
+   - Video Demo:  [Demo](https://drive.google.com/file/d/1pnl__iFw-9yK0Okz3qFPZQXRPAtMJXwQ/view)
 
   
   ---
